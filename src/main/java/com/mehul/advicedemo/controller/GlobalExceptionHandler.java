@@ -17,6 +17,6 @@ public class GlobalExceptionHandler {
     public String doGlobalExceptionHandling(Exception e) {
         logger.error("Exception " + new Date().getTime(), e);
         System.out.println("In Controller Advice");
-        return "/error2";
+        return "/error";
     }
 }
